@@ -1,3 +1,13 @@
 body {
-    background-color: #34252F;
+    min-height: 100vh;
+    background-color: #241920;
+    color: #A4B494;
+}
+
+a:link, a:visited {
+    color: #519872;
+}
+
+a:hover {
+    color: #BDDBCB;
 }
