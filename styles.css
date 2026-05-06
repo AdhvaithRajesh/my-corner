@@ -2,6 +2,11 @@ body {
     min-height: 100vh;
     background-color: #241920;
     color: #A4B494;
+    line-height: 1.4;
+}
+
+a {
+    font-size: 1.4rem;
 }
 
 a:link, a:visited {
@@ -12,10 +17,36 @@ a:hover {
     color: #BDDBCB;
 }
 
+.blog-entry {
+    border: 1px solid #A4B494;
+    border-radius: 10px;
+    
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom: 2rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.blog-entry > .blog-entry-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.blog-entry > .blog-entry-header > .blog-entry-date {
+    align-items: right;
+    font-size: 1.3rem;
+}
+
+
 @media (min-width:1024px){
     .content{
-        max-width: 900px;
+        max-width: 800px;
         margin: 0 auto;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
