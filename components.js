@@ -6,7 +6,7 @@ class blogEntry extends HTMLElement {
         const href = this.getAttribute("href");
 
         this.innerHTML = `
-        <a href="${href}" class="blog-entry-link">
+        <a href="${href}" class="blog-entry-link" target="_blank">
             <div class="blog-entry">
                 <div class="blog-entry-header">
                     <h2 class="blog-entry-title">${title}</h2>
