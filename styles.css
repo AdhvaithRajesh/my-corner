@@ -17,17 +17,19 @@ a:hover {
     color: #BDDBCB;
 }
 
-.blog-entry-link{
+a.blog-entry-link{
     text-decoration: none;
-    color: inherit;
+    color: #A4B494;
     display: block;
 }
 
 .blog-entry-link:hover {
     color: #BDDBCB;
-    border-color: #BDDBCB;
 }
 
+.blog-entry:hover {
+    border-color: #BDDBCB;
+}
 
 .blog-entry {
     border: 1px solid #A4B494;
